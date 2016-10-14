@@ -4,6 +4,7 @@ rvm:
 sudo: false
 before_script:
   - npm install -g jsonlint
+  - sudo apt-get install yamllint
 script:
   - bundle exec rake yamllint --trace
   - bundle exec jekyll build
