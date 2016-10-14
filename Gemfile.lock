@@ -32,12 +32,16 @@ GEM
     rouge (1.11.1)
     safe_yaml (1.0.4)
     sass (3.4.22)
+    trollop (2.1.2)
+    yamllint (0.0.9)
+      trollop (~> 2)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   jekyll
+  yamllint
 
 BUNDLED WITH
-   1.12.5
+   1.13.1
