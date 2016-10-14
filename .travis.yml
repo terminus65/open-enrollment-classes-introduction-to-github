@@ -5,5 +5,5 @@ sudo: false
 before_script:
   - npm install -g jsonlint
 script:
-  - rake yamllint --trace
+  - bundle exec rake yamllint --trace
   - bundle exec jekyll build
