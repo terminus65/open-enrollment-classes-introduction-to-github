@@ -1,0 +1,7 @@
+extends: default
+
+rules:
+  document-end:
+    present: yes
+  document-start:
+    present: yes
