@@ -16,6 +16,7 @@ rules:
   comments: disable
   comments-indentation: disable
   document-start:
+    level: error
     present: yes
   empty-lines:
     level: warning
