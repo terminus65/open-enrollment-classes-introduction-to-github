@@ -4,6 +4,7 @@ rvm:
 sudo: false
 before_script:
   - npm install -g jsonlint
+  - gem install rdiscount -v 1.6.8 --no-rdoc --no-ri
 script:
-  - bundle exec jekyll build
+  - bundle exec rake jekyll build
   - jsonlint -q ./_site/createMap.topojson
