@@ -16,7 +16,7 @@ rules:
   comments: disable
   comments-indentation: disable
   document-start:
-    {present: yes}
+    present: yes
   empty-lines:
     level: warning
   hyphens:
