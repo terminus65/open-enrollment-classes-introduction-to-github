@@ -7,4 +7,3 @@ before_script:
   - gem install rdiscount -v 1.6.8 --no-rdoc --no-ri
 script:
   - bundle exec rake jekyll build
-  - jsonlint -q ./_site/createMap.topojson
