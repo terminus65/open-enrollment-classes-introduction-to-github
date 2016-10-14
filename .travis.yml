@@ -6,4 +6,4 @@ before_script:
   - npm install -g jsonlint
 script:
   - bundle exec jekyll build
-  - bundle exec rake test --trace
+  - bundle exec rake YamlLint --trace
