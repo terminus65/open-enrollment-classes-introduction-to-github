@@ -4,7 +4,6 @@ rvm:
 sudo: false
 before_script:
   - npm install -g jsonlint
-  - gem install rdiscount -v 1.6.8 --no-rdoc --no-ri
 script:
-  - bundle exec rake
-  - bundle jekyll build
+  - bundle exec rake --trace
+  - bundle exec jekyll build
